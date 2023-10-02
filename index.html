@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abhishek's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+       * {
+margin: 0;
+padding: 0;
+        }
+        body{
+            background-color: rgb(1, 1, 43);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(104, 104, 236);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            
+            color: rgb(182, 182, 236);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        .left{
+           font-size: 1.5rem; 
+        }
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstSection>div{
+   width: 40%;
+}
+ .leftSection{
+    font-size: 3rem;
+    margin: 30px 0;
+
+   
+ }
+ .rightSection img{
+   
+    width: 500px;
+    margin: 0 0; 
+ }
+ .purple{
+    color: rgb(69, 8, 235);
+    
+ }
+ .text-gray{
+    color: gray;
+ }
+ #element{
+    color:rgb(69, 8, 235) ;
+ }
+ .secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+ }
+ .secondSection h1{
+    font-size: 2rem;
+ }
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>Abhishek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> Home </a> </li>
+                    <li><a href="/"> About </a> </li>
+                    <li><a href="/"> Services </a> </li>
+                    <li><a href="/"> Projects </a> </li>
+                    <li><a href="/"> Contact Me </a> </li>
+                   
+                </ul>
+            </div>
+        </nav></li></a>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi i'm <div><span class="purple">Abhishek.</span></div>
+                <div>i'm a Passionate</div>
+                <span id="element"></span>
+
+                
+               
+            </div>
+            <div class="rightSection">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/153/360/original/3d-web-developer-working-on-project-illustration-png.png" alt="">
+            </div>
+            
+
+        </section>
+        <hr>
+        <section class="firstSection">
+            <div class="leftSection">
+                SKILL'S <div><span class="purple">HTML</span></div>
+                <div><span class="purple">CSS</span></div>
+                
+
+                
+
+            </div>
+            <div class="rightSection">
+                <img src="https://cdn-icons-png.flaticon.com/512/5072/5072860.png" alt="">
+            </div>
+            
+
+        </section>
+       
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [" Web Developer."],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
